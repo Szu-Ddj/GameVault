@@ -1,0 +1,13 @@
+{
+  "name": "lan-games",
+  "private": true,
+  "scripts": {
+    "dev:server": "pnpm --filter @lan/server dev",
+    "dev:client": "pnpm --filter @lan/web-client dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
